@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+.navbar{
+    padding: 15px 0;
+    background-color: #0F172A;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo .lg{
+     box-shadow: 0 4px 14px rgba(132, 154, 181, 39%);
+}
+
+.logo .name-logo{
+    font-family: 'Inter',sans-serif;
+    font-size: 25px;
+    color: #fff;
+    padding: 0 15px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    color: #fff;
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.nav ul li .learn{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #849AB5;
+    color: #000;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 14px rgba(132, 154, 181, 39%);
+    cursor: pointer;
+}
+
+.content-first .content{
+    padding: 50px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.content-first .content .title-content{
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    /* line-height: 1.25; */
+    font-weight: 600;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.title-content .title-contentcss{
+    color: #FF0000;
+}
+
+.content .deskripsi-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 71%);
+    padding: 15px 0;
+}
+
+
+.content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-button .btn{
+    padding: 20PX 30px;
+}
+
+.content-button button{
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.content-button .learning-btn .btn-learn{    
+    background-color: #849AB5;
+    color:#fff;
+}
+.content-button .tutorial-btn .btn-tutor{    
+    border: 1.5px solid #849AB5;
+    background-color: #fff;
+    color:#557194;
+}
+
+
